@@ -3,9 +3,18 @@ cucumberjvm-wallapop-testng
 
 This repository is an example for using cucumberjvm, pagefactory &amp; page objects, testng and also Maven with ant script to run the tests
 
-Webdriver  +  CucumberJVM   +  PageObjects   + PageFactory   +  Testng   + Maven
+Technologies and tools used in this example:
 
-mvn clean test
+    Webdriver
+    CucumberJVM   
+    PageObjects
+    PageFactory
+    Testng
+    Maven
+
+In order to execute the tests, you need a JDK, Maven and a Selenium Stand Alone WebDriver server running on your machine. Just type this command:
+
+    mvn clean test
 
 It downloads all dependencies and runs the sample tests using Firefox browser which can be configured
 
