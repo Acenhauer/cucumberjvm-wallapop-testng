@@ -12,3 +12,8 @@ It downloads all dependencies and runs the sample tests using Firefox browser wh
 Also this repo is created as a part of the requirement by our consultants
 
 Code from this event: http://www.meetup.com/es-ES/Barcelona-Scrum-English/events/231362120/?eventId=231362120
+
+Contact Info
+==============================
+
+If you want more info, just contact guillemhs via GitHub or via LinkedIn (https://es.linkedin.com/in/guillemhernandezsola)
