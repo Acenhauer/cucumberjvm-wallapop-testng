@@ -2,6 +2,7 @@ package functionalTests.pages.home;
 
 
 import functionalTests.RemoteWebDriverWait;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 
@@ -17,4 +18,15 @@ public class HomePage {
         this.homePage = new HomePageFactory(driver);
     }
 
+    public boolean checkIfLogoIsPresent(){
+        return homePage.mainLogo.isDisplayed();
+    }
+
+    public void inputTextToSearch(String text){
+        homePage.mainSearchTextBox.sendKeys(text);
+    }
+
+    public void clickOnSearchButton(){
+        homePage.mainSearchButton.click();
+    }
 }

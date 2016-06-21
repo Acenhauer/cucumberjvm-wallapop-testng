@@ -27,8 +27,8 @@ public class BaseCucumberTest
     @BeforeTest
     public void setUp() {
         try {
-            driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"),
-                    DesiredCapabilities.firefox());
+            driver = new RemoteWebDriver(new URL("http://selgp:8b819d9d-0298-4f8f-9430-6d44e87ac7b5@ondemand.saucelabs.com:80/wd/hub"),
+                    DesiredCapabilities.edge());
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }

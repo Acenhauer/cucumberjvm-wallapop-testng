@@ -5,8 +5,9 @@ package functionalTests.pages.home;
  */
 public class HomePageConstants {
 
-    public static final String MAIN_SEARCH_TEXT_BOX = "";
-    public static final String MAIN_SEARCH_BUTTON = "";
+    public static final String MAIN_SEARCH_TEXT_BOX = "main-search-input";
+    public static final String MAIN_SEARCH_BUTTON = ".ico-search_normal.search-glass";
+    public static final String MAIN_LOGO =".//*[@class='main-header-logo']";
 
 }
 

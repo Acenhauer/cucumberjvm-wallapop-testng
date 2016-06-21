@@ -26,6 +26,6 @@ public class BuscarItemsSmallDatasetWallapopStepdefs extends BaseCucumberTest {
     @Then("^me sale un pagina de resultados de buscado con el resultado \"([^\"]*)\"$")
     public void me_sale_un_pagina_de_resultados_de_buscado_con_el_resultado(String search) throws Throwable {
         Thread.sleep(2000);
-        Assert.assertTrue(driver.findElement(By.xpath("html/body/div[2]/div/div[4]/div[2]/div/a[1]")).getText().toLowerCase().contains(search));
+        Assert.assertTrue(driver.findElement(By.xpath("(.//*[@class='product-info-title'])[1]")).getText().toLowerCase().contains(search));
     }
 }
